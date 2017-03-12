@@ -12,6 +12,7 @@ const config = {
     rules: [
       {
         use: 'babel-loader',
+        exclude: /node_modules/,
         test: /\.js$/  // only js files
       },
       {
